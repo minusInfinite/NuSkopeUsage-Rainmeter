@@ -2,6 +2,7 @@
 Rainmeter Skin for extracting NuSkope Usage information
 
 NuSkope - Internet Usage Meter based on BigPond - Internet Usage Meter by kanine (Whirlpool Forums) - http://whrl.pl/RdeJE2
+ _Original Licensed under CC BY-NC-SA 3.0, due placing on GitHub, matched Licence to Rainmeter, GNU GPLv2_
 
 # Installation
 1) Install Rainmeter from www.rainmeter.net
