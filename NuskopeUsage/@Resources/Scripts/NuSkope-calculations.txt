@@ -1,0 +1,31 @@
+<Quota>600</Quota>
+<QuotaFormatted>600 GB</QuotaFormatted>
+<DownloadUsage>12.4574</DownloadUsage>
+<DownloadUsageFormatted>12 GB</DownloadUsageFormatted>
+<UploadUsage>0.7496</UploadUsage>
+<UploadUsageFormatted>1 GB</UploadUsageFormatted>
+<DownloadUsagePercent>2.08</DownloadUsagePercent>
+<UploadUsagePercent>0.12</UploadUsagePercent>
+<DownloadRemaining>587.5426</DownloadRemaining>
+<DownloadRemainingFormatted>588 GB</DownloadRemainingFormatted>
+<UploadRemaining>599.2504</UploadRemaining>
+<UploadRemainingFormatted>599 GB</UploadRemainingFormatted>
+<ResetRemainNumeric>26.65</ResetRemainNumeric>
+<ResetRemain>27d</ResetRemain>
+<percent_thrumonth>11.17</percent_thrumonth>
+<percent_thrumonth_endtoday>13.33</percent_thrumonth_endtoday>
+<DownloadToday>67.54</DownloadToday>
+<DownloadTodayFormatted>68 GB</DownloadTodayFormatted>
+<UploadToday>79.25</UploadToday>
+<UploadTodayFormatted>79 GB</UploadTodayFormatted>
+<DownloadAveragePerDay>21.76</DownloadAveragePerDay>
+<UploadAveragePerDay>22.19</UploadAveragePerDay>
+<DownloadAverageDaysToGo>22GB/day 27d to go</DownloadAverageDaysToGo>
+<UploadAverageDaysToGo>22GB/day 27d to go</UploadAverageDaysToGo>
+<DownloadUsageBarColour>0,175,0,255</DownloadUsageBarColour>
+<UploadUsageBarColour>0,175,0,255</UploadUsageBarColour>
+<TodaysDownloadUsage>0.6171</TodaysDownloadUsage>
+<TodaysDownloadUsageFormatted>1 GB</TodaysDownloadUsageFormatted>
+<TodaysUploadUsage>0.3296</TodaysUploadUsage>
+<TodaysUploadUsageFormatted>0 GB</TodaysUploadUsageFormatted>
+<UsageUpdated>30/11/2017 8:27:27 AM</UsageUpdated>
