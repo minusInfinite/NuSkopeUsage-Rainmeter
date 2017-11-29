@@ -7,7 +7,7 @@ _Original Licensed under CC BY-NC-SA 3.0, due placing on GitHub, matched Licence
 
 # Installation
 1) Install Rainmeter from www.rainmeter.net
-2) Download the latest rmskin file from https://github.com/minusInfinite/NuSkopeUsage-Rainmeter/
+2) Download the latest rmskin file from https://github.com/minusInfinite/NuSkopeUsage-Rainmeter/releases
 3) Open the file in Explorer to automatically import
 
 # Usage
