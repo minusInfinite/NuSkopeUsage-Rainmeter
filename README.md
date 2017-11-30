@@ -1,4 +1,7 @@
 # NuSkopeUsage-Rainmeter
+
+Preview - https://imgur.com/gallery/GGtc6 
+
 Rainmeter Skin for extracting NuSkope Usage information
 
 NuSkope - Internet Usage Meter based on BigPond - Internet Usage Meter by kanine (Whirlpool Forums) http://whrl.pl/RdeJE2
