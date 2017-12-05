@@ -456,7 +456,7 @@ Private Function parse_usage_data_newformat (ByRef contents)
 
   AddItem "Usage Updated", UpdateStarted
 
-  'Grab Current Usage and Quota
+  'Grab Total Usage and Quota
 
   wResetDate = parse_item (contents, "LastReset"":",",")
   wQuota = parse_item (contents, "PlanQuotaGB"":",",")
@@ -465,8 +465,9 @@ Private Function parse_usage_data_newformat (ByRef contents)
 
   'Todays Information
 
-  wTodayDownload = parse_item (contents, "DownloadsGB"":",",")
   wTodayUpload = parse_item (contents, "UploadsGB"":",",")
+  wTodayDownload = parse_item (contents, "DownloadsGB"":",",")
+  
 
 
   If FileTracking Then
