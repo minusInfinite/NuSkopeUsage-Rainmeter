@@ -6,7 +6,7 @@ BigPond - Internet Usage Meter by kanine (Whirlpool Forums)
 
 Installation
 1) Install Rainmeter from www.rainmeter.net
-2) Download the latest rmskin file from TBA
+2) Download the latest rmskin file from https://github.com/minusInfinite/NuSkopeUsage-Rainmeter/
 3) Open the file in Explorer to automatically import
 
 Usage
