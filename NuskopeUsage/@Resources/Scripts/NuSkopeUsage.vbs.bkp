@@ -142,18 +142,6 @@ Function UploadUsage ()
 
 End Function
 
-Function TotalUsage ()
-
-  TotalUsage = CDbl(DownloadUsage) + CDbl(UploadUsage)
-
-End Function
-
-Function TotalRemaining ()
-
-  TotalRemaining = Quota - TotalUsage
-
-End Function
-
 Function UploadFormatted ()
 
   UploadsFormatted = Get_Cache_Value("Upload Usage Formatted", log_file)
@@ -172,9 +160,15 @@ Function TodaysUploadUsage ()
 
 End Function
 
-Function TodaysTotalUsage ()
+Function DownloadRemainingFormatted ()
 
-  TodaysTotalUsage = CDbl(TodaysDownloadUsage) + CDbl(TodaysUploadUsage)
+  DownloadRemainingFormatted = Get_Cache_Value("Download Remaining Formatted", log_file)
+
+End Function
+
+Function UploadRemainingFormatted ()
+
+  UploadRemainingFormatted = Get_Cache_Value("Upload Remaining Formatted", log_file)
 
 End Function
 
@@ -204,16 +198,6 @@ Function UploadUsagePercent ()
 
 End Function
 
-Function TotalUsagePercent ()
-
-  If CDbl(TotalUsage()) < CDbl(Quota()) Then
-  	TotalUsagePercent = TotalUsage()/Quota()*100
-  Else
-    TotalUsagePercent = 100
-  End If
-
-End Function
-
 Function DownloadToday ()
 
   DownloadToday = (Quota() * (percent_thrumonth_endtoday ()/100)) - DownloadUsage()
@@ -226,12 +210,6 @@ Function UploadToday ()
 
 End Function
 
-Function TotalToday ()
-
-  TotalToday = (Quota() * (percent_thrumonth_endtoday ()/100)) - TotalUsage()
-
-End Function
-
 Function DownloadAveragePerDay ()
 
   DownloadAveragePerDay = DownloadRemaining()/Floor(ResetRemainNumeric()+1)
@@ -241,12 +219,6 @@ End Function
 Function UploadAveragePerDay ()
 
   UploadAveragePerDay = UploadRemaining()/Floor(ResetRemainNumeric()+1)
-
-End Function
-
-Function TotalAveragePerDay ()
-
-  TotalAveragePerDay = TotalRemaining()/Floor(ResetRemainNumeric()+1)
 
 End Function
 
@@ -306,12 +278,6 @@ End Function
 Function UploadAverageDaysToGo ()
   
   UploadAverageDaysToGo = FormatNumber(Round(UploadAveragePerDay()),0) & "GB/day " & ResetRemain() & " to go" 
-
-End Function
-
-Function TotalAverageDaysToGo ()
-  
-  TotalAverageDaysToGo = FormatNumber(Round(TotalAveragePerDay()),0) & "GB/day " & ResetRemain() & " to go" 
 
 End Function
 
@@ -483,24 +449,25 @@ End Sub
 
 Private Function parse_usage_data_newformat (ByRef contents)
 
-  Dim wDownload, wNuSkopeDate, wTodayDate, wTodayDownload, wTodayUpload, wUpload, wTodayTotal, wTotal
-  Dim f, fs, wJunk, wResetDate, tempDate
+  Dim wDownload, wTotalsStartPos, wStartPos, wTempContent, wRatedUwsage, wNuSkopeDate, wTodayDate
+  Dim wTodayDownload, wTodayUpload, wUpload, f, fs, wJunk, wResetDate, tempDate
 
   Set fs = CreateObject ("Scripting.FileSystemObject")
 
   AddItem "Usage Updated", UpdateStarted
 
-  'Grab Total Download, Upload and Plan Quota
+  'Grab Total Usage and Quota
 
   wResetDate = parse_item (contents, "LastReset"":",",")
   wQuota = parse_item (contents, "PlanQuotaGB"":",",")
   wUpload = parse_item (contents, "UploadsGB"":",",")
   wDownload = parse_item (contents, "DownloadsGB"":",",")
 
-  'Grab Todays Usage Info
+  'Todays Information
 
   wTodayUpload = parse_item (contents, "UploadsGB"":",",")
   wTodayDownload = parse_item (contents, "DownloadsGB"":",",")
+  
 
 
   If FileTracking Then
@@ -516,14 +483,13 @@ Private Function parse_usage_data_newformat (ByRef contents)
   tempDate = CDate(wResetDate)
   
   wResetDay = Day(tempDate)
-
+  
   AddItem "Reset Date", wResetDay
   AddItem "Quota", wQuota
   AddItem "Upload Usage", wUpload
   AddItem "Download Usage", wDownload
   AddItem "Download Remaining", CDbl(wQuota) - CDbl(wDownload)
   AddItem "Upload Remaining", CDbl(wQuota) - CDbl(wUpload)
-
   AddItem "End of File", Now()
 
   parse_usage_data_newformat = parsed_data
@@ -626,16 +592,12 @@ f.writeline FormatCalc("DownloadUsage",DownloadUsage)
 f.writeline FormatCalc("DownloadUsageFormatted",FormatNumber(DownloadUsage,0) & " GB")
 f.writeline FormatCalc("UploadUsage",UploadUsage)
 f.writeline FormatCalc("UploadUsageFormatted",FormatNumber(UploadUsage,0) & " GB")
-f.writeline FormatCalc("TotalUsage",TotalUsage)
-f.writeline FormatCalc("TotalUsageFormatted",FormatNumber(TotalUsage,0) & " GB")
 f.writeline FormatCalc("DownloadUsagePercent",Round(DownloadUsagePercent,2))
 f.writeline FormatCalc("UploadUsagePercent",Round(UploadUsagePercent,2))
-f.writeline FormatCalc("TotalUsagePercent",Round(TotalUsagePercent,2))
 f.writeline FormatCalc("DownloadRemaining",DownloadRemaining)
 f.writeline FormatCalc("DownloadRemainingFormatted",FormatNumber(DownloadRemaining,0) & " GB")
 f.writeline FormatCalc("UploadRemaining",UploadRemaining)
 f.writeline FormatCalc("UploadRemainingFormatted",FormatNumber(UploadRemaining,0) & " GB")
-f.writeline FormatCalc("TotalRemainingFormatted",FormatNumber(TotalRemaining,0) & " GB")
 f.writeline FormatCalc("ResetRemainNumeric",Round(ResetRemainNumeric,2))
 f.writeline FormatCalc("ResetRemain",ResetRemain)
 f.writeline FormatCalc("percent_thrumonth",Round(percent_thrumonth,2))
@@ -644,14 +606,10 @@ f.writeline FormatCalc("DownloadToday",Round(DownloadToday,2))
 f.writeline FormatCalc("DownloadTodayFormatted",FormatNumber(Round(DownloadToday,2),0) & " GB")
 f.writeline FormatCalc("UploadToday",Round(UploadToday,2))
 f.writeline FormatCalc("UploadTodayFormatted",FormatNumber(Round(UploadToday,2),0) & " GB")
-f.writeline FormatCalc("TotalToday",Round(TotalToday,2))
-f.writeline FormatCalc("TotalTodayFormatted",FormatNumber(Round(TotalToday,2),0) & " GB")
 f.writeline FormatCalc("DownloadAveragePerDay",Round(DownloadAveragePerDay,2))
 f.writeline FormatCalc("UploadAveragePerDay",Round(UploadAveragePerDay,2))
-f.writeline FormatCalc("TotalAveragePerDay",Round(TotalAveragePerDay,2))
 f.writeline FormatCalc("DownloadAverageDaysToGo",DownloadAverageDaysToGo)
 f.writeline FormatCalc("UploadAverageDaysToGo",UploadAverageDaysToGo)
-f.writeline FormatCalc("TotalAverageDaysToGo",TotalAverageDaysToGo)
 
 If DownloadUsagePercent <= 25 Then f.writeline FormatCalc("DownloadUsageBarColour",ColourBarGreen)
 If DownloadUsagePercent > 25 and DownloadUsagePercent < 70 Then f.writeline FormatCalc("DownloadUsageBarColour",ColourBarYellow)
@@ -661,16 +619,10 @@ If UploadUsagePercent <= 25 Then f.writeline FormatCalc("UploadUsageBarColour",C
 If UploadUsagePercent > 25 and UploadUsagePercent < 70 Then f.writeline FormatCalc("UploadUsageBarColour",ColourBarYellow)
 If UploadUsagePercent >= 70 Then f.writeline FormatCalc("UploadUsageBarColour",ColourBarRed)
 
-If UploadUsagePercent <= 25 Then f.writeline FormatCalc("TotalUsageBarColour",ColourBarGreen)
-If UploadUsagePercent > 25 and UploadUsagePercent < 70 Then f.writeline FormatCalc("TotalUsageBarColour",ColourBarYellow)
-If UploadUsagePercent >= 70 Then f.writeline FormatCalc("TotalUsageBarColour",ColourBarRed)
-
 f.writeline FormatCalc("TodaysDownloadUsage",TodaysDownloadUsage)
 f.writeline FormatCalc("TodaysDownloadUsageFormatted",FormatNumber(TodaysDownloadUsage,0) & " GB")
 f.writeline FormatCalc("TodaysUploadUsage",TodaysUploadUsage)
 f.writeline FormatCalc("TodaysUploadUsageFormatted",FormatNumber(TodaysUploadUsage,0) & " GB")
-f.writeline FormatCalc("TodaysTotalUsage",TodaysTotalUsage)
-f.writeline FormatCalc("TodaysTotalUsageFormatted",FormatNumber(TodaysTotalUsage,0) & " GB")
 f.writeline FormatCalc("UsageUpdated",Now())
 f.close
       

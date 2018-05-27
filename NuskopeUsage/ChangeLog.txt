@@ -1,7 +1,3 @@
-Version 0.1a
- - Fixed issues with NuSkopeUsage.vbs from commiting Upload usage from previous day
- - Added tooltips on mouseover to show current total download and upload usage on respective skins
-
 Version 0.1
  - Adapting VBSripts to pull NuSkope API Token and data
  - Adapted from Kanine's Bigpond Usage meter https://forums.whirlpool.net.au/forum-replies.cfm?t=1942079
