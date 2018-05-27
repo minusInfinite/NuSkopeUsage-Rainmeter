@@ -9,9 +9,9 @@ Installation
 2) Download the latest rmskin file from TBA
 3) Open the file in Explorer to automatically import
 
-Usage
+Usage - If you have a new plan user NuskopeCombined insteed of NuskopeDownload
 1) Load the NuskopeDownload skin, on first run this will prompt to enter your API Token. You can get this from https://members.nuskope.com.au/usage
-2) Load the NuskopeUpload skin to also track upload
+2) Load the NuskopeUpload skin to also track upload if you have a split usage plan
 
 Notes
 
