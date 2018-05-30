@@ -1,8 +1,6 @@
 Version 0.2
  - Added NuskopeCombined, A new meter for plans that count Downloads and Uploads
- - For legacy plans if any the seperate meters still exits. 
- **Issues
- - I'm unable to get to https://members.nuskope.com.au/usage and as such can't access the API key generator. 
+ - For legacy plans if any the seperate meters still exits.
 
 Version 0.1a
  - Fixed issues with NuSkopeUsage.vbs from commiting Upload usage from previous day
