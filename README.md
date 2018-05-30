@@ -21,7 +21,6 @@ Notes
 
 - The first time loading may show some old data, this will be refreshed in 60s if the script is functioning correctly. The Nuskope Usage API is polled every 15 minutes with the default skin configuration.
 
-
 # To Do 
  
  - Migrate the skin to use Lua rather than VBS
