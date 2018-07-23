@@ -4,6 +4,8 @@ Rainmeter Skin for extracting NuSkope Usage information
 
 NuSkope - Internet Usage Meter 
 
+New Preview - https://imgur.com/a/OA6zzB1
+
 _Original Licensed under CC BY-NC-SA 3.0, due placing on GitHub, matched Licence to Rainmeter, GNU GPLv2_
 
 # Installation
