@@ -6,6 +6,8 @@ NuSkope - Internet Usage Meter
 
 New Preview - https://imgur.com/a/OA6zzB1
 
+_Original Licensed under CC BY-NC-SA 3.0, due placing on GitHub, matched Licence to Rainmeter, GNU GPLv2_
+
 # Installation
 1) Install Rainmeter from www.rainmeter.net
 2) Download the latest rmskin file from https://github.com/minusInfinite/NuSkopeUsage-Rainmeter/releases
@@ -28,4 +30,4 @@ Date functions for Lua from https://github.com/Tieske/date
 The Original Meter is based on BigPond - Internet Usage Meter by kanine (Whirlpool Forums) http://whrl.pl/RdeJE2
 
 
-minusInfinite
+**_minusInfinite_**
