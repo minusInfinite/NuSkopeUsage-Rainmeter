@@ -26,6 +26,7 @@ Notes
 # Credits
 
 Date functions for Lua from https://github.com/Tieske/date
+
 The Original Meter is based on BigPond - Internet Usage Meter by kanine (Whirlpool Forums) http://whrl.pl/RdeJE2
 
 
