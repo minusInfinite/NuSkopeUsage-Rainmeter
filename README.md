@@ -1,10 +1,10 @@
-# NuSkopeUsage-Rainmeter V2
+# NuSkopeUsage-Rainmeter
+
+Preview - https://imgur.com/gallery/GGtc6 
 
 Rainmeter Skin for extracting NuSkope Usage information
 
-NuSkope - Internet Usage Meter 
-
-New Preview - https://imgur.com/a/OA6zzB1
+NuSkope - Internet Usage Meter based on BigPond - Internet Usage Meter by kanine (Whirlpool Forums) http://whrl.pl/RdeJE2
 
 _Original Licensed under CC BY-NC-SA 3.0, due placing on GitHub, matched Licence to Rainmeter, GNU GPLv2_
 
@@ -14,20 +14,17 @@ _Original Licensed under CC BY-NC-SA 3.0, due placing on GitHub, matched Licence
 3) Open the file in Explorer to automatically import
 
 # Usage
-1) On Load the Skin should ask for you API Key. Get you Key from the members Area.
-2) If it doesn't, loading the Usage\NuskopeUsageV2.ini should do this. 
-
-If you have any issues please let me know. 
+1) Load the NuskopeCombined skin, on first run this will prompt to enter your API Token. You can get this from https://members.nuskope.com.au/usage
+2) If you have a split usage plan you can also use NuskopeDownload and NuskopeUpload
 
 Notes
 
-- On entering the API key it my take a few moments to update the skin with data. It should update automatically after a few moments
+- The first time loading may show some old data, this will be refreshed in 60s if the script is functioning correctly. The Nuskope Usage API is polled every 15 minutes with the default skin configuration.
 
-# Credits
-
-Date functions for Lua from https://github.com/Tieske/date
-
-The Original Meter is based on BigPond - Internet Usage Meter by kanine (Whirlpool Forums) http://whrl.pl/RdeJE2
+# To Do 
+ 
+ - Migrate the skin to use Lua rather than VBS
+ - Look to make a dropout or a daily/monthly histogram meter 
 
 
 minusInfinite
