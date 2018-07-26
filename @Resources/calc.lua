@@ -33,10 +33,16 @@ function Update ()
     tData = {}
 
     if dNow > rDate then
-        ptMonth = math.ceil((d2Sum/d4Sum)*100)
+        ptMonth = math.floor((d1Sum/d2Sum)*100)
     else
         ptMonth = math.ceil((d0Sum/d1Sum)*100)
     end
+
+    --print(d0Sum)
+    --print(d1Sum)
+    --print(d2Sum)
+    --print(d3Sum)
+    --print(d4Sum)
 
 
     SKIN:Bang('!SetOption', 'ptMonth', 'String', ptMonth)
@@ -50,9 +56,6 @@ function Update ()
     --print(rDate)
     --print(p1Date)
     --print(p2Date)
-    --print(d0Sum)
-    --print(d2Sum)
-    --print(d3Sum)
 
     editStr = string.gsub(jData, '%"%:%"', " %\=% " )
     
@@ -89,6 +92,4 @@ function Update ()
 
     SKIN:Bang('!Redraw')
 
-
-    
 end
