@@ -85,6 +85,10 @@ function Update ()
     SKIN:Bang('!SetOption', 'p2Usage', 'String', p2Usage)
     SKIN:Bang('!UpdateMeasure', 'p2Usage')
 
+    SKIN:Bang('!SetOption', 'UpdateDate', 'String', assert(dNow:fmt("%d/%m/%y %I:%M %p")))
+
     SKIN:Bang('!Redraw')
+
+
     
 end
