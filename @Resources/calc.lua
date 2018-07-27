@@ -38,12 +38,6 @@ function Update ()
         ptMonth = math.ceil((d0Sum/d1Sum)*100)
     end
 
-    --print(d0Sum)
-    --print(d1Sum)
-    --print(d2Sum)
-    --print(d3Sum)
-    --print(d4Sum)
-
 
     SKIN:Bang('!SetOption', 'ptMonth', 'String', ptMonth)
     SKIN:Bang('!UpdateMeasure', 'ptMonth')
@@ -51,16 +45,7 @@ function Update ()
     SKIN:Bang('!SetOption', 'DaysRemaining', 'String', d0Sum)
     SKIN:Bang('!UpdateMeasure', 'DaysRemaining')
 
-    --print(dNow)
-    --print(eDate)
-    --print(rDate)
-    --print(p1Date)
-    --print(p2Date)
-
     editStr = string.gsub(jData, '%"%:%"', " %\=% " )
-    
-    --print(editStr)
-    --print(string.match(testStr, "%-(%d*)-"))
 
     for k,v in string.gmatch(editStr, "(%w+)%s*=%s*(%d*.%d*)") do
         table.insert(tData,v)
@@ -89,7 +74,8 @@ function Update ()
     SKIN:Bang('!UpdateMeasure', 'p2Usage')
 
     SKIN:Bang('!SetOption', 'UpdateDate', 'String', assert(dNow:fmt("%d/%m/%y %I:%M %p")))
+    SKIN:Bang('!UpdateMeasure', 'UpdateDate')
 
     SKIN:Bang('!Redraw')
-
+    
 end
