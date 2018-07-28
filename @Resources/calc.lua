@@ -7,7 +7,7 @@ function Initialize ()
 
 end
 
-function Update ()
+function dataParse ()
     rDay = tonumber(mhDay:GetStringValue())
     rMonth = tonumber(mhMonth:GetStringValue())
     rYear = tonumber(mhYear:GetStringValue())
@@ -38,12 +38,7 @@ function Update ()
         ptMonth = math.ceil((d0Sum/d1Sum)*100)
     end
 
-
     SKIN:Bang('!SetOption', 'ptMonth', 'String', ptMonth)
-    SKIN:Bang('!UpdateMeasure', 'ptMonth')
-
-    SKIN:Bang('!SetOption', 'DaysRemaining', 'String', d0Sum)
-    SKIN:Bang('!UpdateMeasure', 'DaysRemaining')
 
     editStr = string.gsub(jData, '%"%:%"', " %\=% " )
 
@@ -60,7 +55,6 @@ function Update ()
     end
     
     SKIN:Bang('!SetOption', 'p1Usage', 'String', p1Usage)
-    SKIN:Bang('!UpdateMeasure', 'p1Usage')
 
     for i  = d2Sum*3,d3Sum*3, 3 do
         local uploads = 0
@@ -69,13 +63,12 @@ function Update ()
         downloads = tonumber(downloads) + tonumber(tData[i-1])
         p2Usage = p2Usage + (uploads + downloads)
     end
-    
+
     SKIN:Bang('!SetOption', 'p2Usage', 'String', p2Usage)
-    SKIN:Bang('!UpdateMeasure', 'p2Usage')
 
+    SKIN:Bang('!SetOption', 'DaysRemaining', 'String', d0Sum)    
     SKIN:Bang('!SetOption', 'UpdateDate', 'String', assert(dNow:fmt("%d/%m/%y %I:%M %p")))
-    SKIN:Bang('!UpdateMeasure', 'UpdateDate')
-
+    SKIN:Bang('!UpdateMeasure', '*')
     SKIN:Bang('!Redraw')
     
 end
