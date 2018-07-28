@@ -66,7 +66,7 @@ function dataParse ()
 
     SKIN:Bang('!SetOption', 'p2Usage', 'String', p2Usage)
 
-    SKIN:Bang('!SetOption', 'DaysRemaining', 'String', d0Sum)    
+    SKIN:Bang('!SetOption', 'DaysRemaining', 'String', d0Sum)  
     SKIN:Bang('!SetOption', 'UpdateDate', 'String', assert(dNow:fmt("%d/%m/%y %I:%M %p")))
     SKIN:Bang('!UpdateMeasure', '*')
     SKIN:Bang('!Redraw')
