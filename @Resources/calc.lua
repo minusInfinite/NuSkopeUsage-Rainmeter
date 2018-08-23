@@ -12,7 +12,9 @@ function dataParse ()
     rMonth = tonumber(mhMonth:GetStringValue())
     rYear = tonumber(mhYear:GetStringValue())
     jData = mhData:GetStringValue()
+    tData = {}
     dNow = date()
+    dNowFmt  = dNow:fmt("%d/%m/%y %I:%M %p")
     rDate = date(rYear,rMonth,rDay)
     eDate = date(rYear,rMonth,rDay):addmonths(1)
     p1Date = date(rYear,rMonth,rDay):addmonths(-1)
@@ -21,7 +23,7 @@ function dataParse ()
     d1 = date.diff(dNow,rDate)
     d2 = date.diff(dNow,p1Date)
     d3 = date.diff(dNow,p2Date)
-    d4 = date.diff(eDate,p1Date)
+    d4 = date.diff(eDate,rDate)
     d0Sum = assert(math.ceil(d0:spandays()))
     d1Sum = assert(math.ceil(d1:spandays()))
     d2Sum = assert(math.ceil(d2:spandays()))
@@ -30,10 +32,9 @@ function dataParse ()
     ptMonth = 0
     p1Usage = 0
     p2Usage = 0
-    tData = {}
 
     if dNow > rDate then
-        ptMonth = math.floor((d1Sum/d2Sum)*100)
+        ptMonth = math.floor((d1Sum/d4Sum)*100)
     else
         ptMonth = math.ceil((d0Sum/d1Sum)*100)
     end
@@ -67,7 +68,7 @@ function dataParse ()
     SKIN:Bang('!SetOption', 'p2Usage', 'String', p2Usage)
 
     SKIN:Bang('!SetOption', 'DaysRemaining', 'String', d0Sum)  
-    SKIN:Bang('!SetOption', 'UpdateDate', 'String', assert(dNow:fmt("%d/%m/%y %I:%M %p")))
+    SKIN:Bang('!SetOption', 'UpdateDate', 'String', dNowFmt)
     SKIN:Bang('!UpdateMeasure', '*')
     SKIN:Bang('!Redraw')
     
