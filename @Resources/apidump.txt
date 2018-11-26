@@ -1,1 +1,486 @@
-{"PlanName":"NuSkope Residential Fixed Wireless 800GB","QuotaMetering":"Download And Upload","SplitData":false,"LastReset":"2018-07-27","PlanQuotaGB":800,"UploadsGB":"0.3523","DownloadsGB":"5.0123","DailyUsage":{"2018-07-28":{"UploadsGB":"0.0047","DownloadsGB":"0.0568","Date":"2018-07-28"},"2018-07-27":{"UploadsGB":"0.3475","DownloadsGB":"4.9556","Date":"2018-07-27"},"2018-07-26":{"UploadsGB":"1.1698","DownloadsGB":"8.6162","Date":"2018-07-26"},"2018-07-25":{"UploadsGB":"0.9166","DownloadsGB":"18.3668","Date":"2018-07-25"},"2018-07-24":{"UploadsGB":"0.6296","DownloadsGB":"10.2855","Date":"2018-07-24"},"2018-07-23":{"UploadsGB":"0.4911","DownloadsGB":"14.0752","Date":"2018-07-23"},"2018-07-22":{"UploadsGB":"0.4486","DownloadsGB":"19.3797","Date":"2018-07-22"},"2018-07-21":{"UploadsGB":"0.4928","DownloadsGB":"17.9941","Date":"2018-07-21"},"2018-07-20":{"UploadsGB":"0.2938","DownloadsGB":"9.4171","Date":"2018-07-20"},"2018-07-19":{"UploadsGB":"0.3269","DownloadsGB":"3.3963","Date":"2018-07-19"},"2018-07-18":{"UploadsGB":"0.3155","DownloadsGB":"7.4582","Date":"2018-07-18"},"2018-07-17":{"UploadsGB":"0.4221","DownloadsGB":"6.2464","Date":"2018-07-17"},"2018-07-16":{"UploadsGB":"0.4379","DownloadsGB":"4.1253","Date":"2018-07-16"},"2018-07-15":{"UploadsGB":"0.4010","DownloadsGB":"13.0017","Date":"2018-07-15"},"2018-07-14":{"UploadsGB":"0.5678","DownloadsGB":"16.9062","Date":"2018-07-14"},"2018-07-13":{"UploadsGB":"0.7170","DownloadsGB":"10.5538","Date":"2018-07-13"},"2018-07-12":{"UploadsGB":"0.4245","DownloadsGB":"15.0276","Date":"2018-07-12"},"2018-07-11":{"UploadsGB":"0.3635","DownloadsGB":"8.9483","Date":"2018-07-11"},"2018-07-10":{"UploadsGB":"0.5518","DownloadsGB":"12.8470","Date":"2018-07-10"},"2018-07-09":{"UploadsGB":"0.3995","DownloadsGB":"15.0621","Date":"2018-07-09"},"2018-07-08":{"UploadsGB":"0.5988","DownloadsGB":"19.3211","Date":"2018-07-08"},"2018-07-07":{"UploadsGB":"0.4725","DownloadsGB":"16.7729","Date":"2018-07-07"},"2018-07-06":{"UploadsGB":"0.3987","DownloadsGB":"6.4368","Date":"2018-07-06"},"2018-07-05":{"UploadsGB":"0.6760","DownloadsGB":"13.0136","Date":"2018-07-05"},"2018-07-04":{"UploadsGB":"0.6677","DownloadsGB":"7.2582","Date":"2018-07-04"},"2018-07-03":{"UploadsGB":"0.8503","DownloadsGB":"8.2984","Date":"2018-07-03"},"2018-07-02":{"UploadsGB":"0.6655","DownloadsGB":"9.7897","Date":"2018-07-02"},"2018-07-01":{"UploadsGB":"0.5823","DownloadsGB":"10.1349","Date":"2018-07-01"},"2018-06-30":{"UploadsGB":"0.9017","DownloadsGB":"26.7833","Date":"2018-06-30"},"2018-06-29":{"UploadsGB":"0.8718","DownloadsGB":"15.2322","Date":"2018-06-29"},"2018-06-28":{"UploadsGB":"0.7211","DownloadsGB":"7.1595","Date":"2018-06-28"},"2018-06-27":{"UploadsGB":"0.7874","DownloadsGB":"12.6156","Date":"2018-06-27"},"2018-06-26":{"UploadsGB":"0.8646","DownloadsGB":"25.2736","Date":"2018-06-26"},"2018-06-25":{"UploadsGB":"0.8164","DownloadsGB":"6.2638","Date":"2018-06-25"},"2018-06-24":{"UploadsGB":"0.7946","DownloadsGB":"32.7886","Date":"2018-06-24"},"2018-06-23":{"UploadsGB":"0.6328","DownloadsGB":"15.5793","Date":"2018-06-23"},"2018-06-22":{"UploadsGB":"0.8876","DownloadsGB":"9.7173","Date":"2018-06-22"},"2018-06-21":{"UploadsGB":"0.6753","DownloadsGB":"14.2579","Date":"2018-06-21"},"2018-06-20":{"UploadsGB":"0.8510","DownloadsGB":"12.4639","Date":"2018-06-20"},"2018-06-19":{"UploadsGB":"0.8512","DownloadsGB":"13.4560","Date":"2018-06-19"},"2018-06-18":{"UploadsGB":"1.0115","DownloadsGB":"11.3401","Date":"2018-06-18"},"2018-06-17":{"UploadsGB":"0.5927","DownloadsGB":"8.6854","Date":"2018-06-17"},"2018-06-16":{"UploadsGB":"0.7359","DownloadsGB":"19.1614","Date":"2018-06-16"},"2018-06-15":{"UploadsGB":"1.0996","DownloadsGB":"20.3233","Date":"2018-06-15"},"2018-06-14":{"UploadsGB":"1.7785","DownloadsGB":"36.4779","Date":"2018-06-14"},"2018-06-13":{"UploadsGB":"1.4711","DownloadsGB":"60.9573","Date":"2018-06-13"},"2018-06-12":{"UploadsGB":"1.5134","DownloadsGB":"26.6923","Date":"2018-06-12"},"2018-06-11":{"UploadsGB":"1.1167","DownloadsGB":"10.6146","Date":"2018-06-11"},"2018-06-10":{"UploadsGB":"0.9187","DownloadsGB":"19.3879","Date":"2018-06-10"},"2018-06-09":{"UploadsGB":"0.6950","DownloadsGB":"14.1660","Date":"2018-06-09"},"2018-06-08":{"UploadsGB":"1.2040","DownloadsGB":"10.8525","Date":"2018-06-08"},"2018-06-07":{"UploadsGB":"1.2893","DownloadsGB":"7.8700","Date":"2018-06-07"},"2018-06-06":{"UploadsGB":"1.4552","DownloadsGB":"25.4889","Date":"2018-06-06"},"2018-06-05":{"UploadsGB":"0.6858","DownloadsGB":"12.0310","Date":"2018-06-05"},"2018-06-04":{"UploadsGB":"0.7718","DownloadsGB":"5.5739","Date":"2018-06-04"},"2018-06-03":{"UploadsGB":"1.0651","DownloadsGB":"15.4420","Date":"2018-06-03"},"2018-06-02":{"UploadsGB":"1.2920","DownloadsGB":"26.3061","Date":"2018-06-02"},"2018-06-01":{"UploadsGB":"2.0591","DownloadsGB":"8.2913","Date":"2018-06-01"},"2018-05-31":{"UploadsGB":"0.7522","DownloadsGB":"13.2605","Date":"2018-05-31"},"2018-05-30":{"UploadsGB":"0.7241","DownloadsGB":"14.7986","Date":"2018-05-30"},"2018-05-29":{"UploadsGB":"0.7183","DownloadsGB":"10.8741","Date":"2018-05-29"},"2018-05-28":{"UploadsGB":"0.6624","DownloadsGB":"20.2363","Date":"2018-05-28"},"2018-05-27":{"UploadsGB":"0.5405","DownloadsGB":"20.5520","Date":"2018-05-27"},"2018-05-26":{"UploadsGB":"0.7455","DownloadsGB":"25.3177","Date":"2018-05-26"},"2018-05-25":{"UploadsGB":"0.7769","DownloadsGB":"9.5767","Date":"2018-05-25"},"2018-05-24":{"UploadsGB":"0.5064","DownloadsGB":"9.5022","Date":"2018-05-24"},"2018-05-23":{"UploadsGB":"0.5161","DownloadsGB":"11.4553","Date":"2018-05-23"},"2018-05-22":{"UploadsGB":"0.6736","DownloadsGB":"9.8946","Date":"2018-05-22"},"2018-05-21":{"UploadsGB":"0.7042","DownloadsGB":"5.6959","Date":"2018-05-21"},"2018-05-20":{"UploadsGB":"1.0088","DownloadsGB":"17.1003","Date":"2018-05-20"},"2018-05-19":{"UploadsGB":"1.2067","DownloadsGB":"10.6335","Date":"2018-05-19"},"2018-05-18":{"UploadsGB":"0.7309","DownloadsGB":"11.5582","Date":"2018-05-18"},"2018-05-17":{"UploadsGB":"0.7223","DownloadsGB":"7.5601","Date":"2018-05-17"},"2018-05-16":{"UploadsGB":"1.0053","DownloadsGB":"30.5318","Date":"2018-05-16"},"2018-05-15":{"UploadsGB":"1.3594","DownloadsGB":"63.9290","Date":"2018-05-15"},"2018-05-14":{"UploadsGB":"1.9873","DownloadsGB":"16.2234","Date":"2018-05-14"},"2018-05-13":{"UploadsGB":"4.4285","DownloadsGB":"15.2895","Date":"2018-05-13"},"2018-05-12":{"UploadsGB":"0.6096","DownloadsGB":"8.0218","Date":"2018-05-12"},"2018-05-11":{"UploadsGB":"0.5838","DownloadsGB":"7.9777","Date":"2018-05-11"},"2018-05-10":{"UploadsGB":"0.5720","DownloadsGB":"7.5302","Date":"2018-05-10"},"2018-05-09":{"UploadsGB":"0.6033","DownloadsGB":"11.0681","Date":"2018-05-09"},"2018-05-08":{"UploadsGB":"0.5924","DownloadsGB":"7.4568","Date":"2018-05-08"},"2018-05-07":{"UploadsGB":"0.5075","DownloadsGB":"5.0255","Date":"2018-05-07"},"2018-05-06":{"UploadsGB":"0.5927","DownloadsGB":"12.9080","Date":"2018-05-06"},"2018-05-05":{"UploadsGB":"1.1799","DownloadsGB":"41.0178","Date":"2018-05-05"},"2018-05-04":{"UploadsGB":"0.7453","DownloadsGB":"16.1246","Date":"2018-05-04"},"2018-05-03":{"UploadsGB":"0.6081","DownloadsGB":"14.9667","Date":"2018-05-03"},"2018-05-02":{"UploadsGB":"0.5821","DownloadsGB":"10.9698","Date":"2018-05-02"},"2018-05-01":{"UploadsGB":"0.6713","DownloadsGB":"12.5337","Date":"2018-05-01"},"2018-04-30":{"UploadsGB":"0.5127","DownloadsGB":"11.6110","Date":"2018-04-30"},"2018-04-29":{"UploadsGB":"0.5420","DownloadsGB":"3.6327","Date":"2018-04-29"},"2018-04-28":{"UploadsGB":"0.5177","DownloadsGB":"3.9653","Date":"2018-04-28"},"2018-04-27":{"UploadsGB":"0.5826","DownloadsGB":"6.0309","Date":"2018-04-27"},"2018-04-26":{"UploadsGB":"0.8305","DownloadsGB":"12.3201","Date":"2018-04-26"},"2018-04-25":{"UploadsGB":"0.6120","DownloadsGB":"14.8453","Date":"2018-04-25"}}}
+{
+    "PlanName": "NuSkope Residential Fixed Wireless 800GB",
+    "QuotaMetering": "Download And Upload",
+    "SplitData": false,
+    "LastReset": "2018-10-27",
+    "PlanQuotaGB": 800,
+    "UploadsGB": "32.9198",
+    "DownloadsGB": "488.3148",
+    "DailyUsage": {
+        "2018-11-19": {
+            "UploadsGB": "0.1966",
+            "DownloadsGB": "1.0232",
+            "Date": "2018-11-19"
+        },
+        "2018-11-18": {
+            "UploadsGB": "0.8994",
+            "DownloadsGB": "22.9059",
+            "Date": "2018-11-18"
+        },
+        "2018-11-17": {
+            "UploadsGB": "0.8166",
+            "DownloadsGB": "19.1238",
+            "Date": "2018-11-17"
+        },
+        "2018-11-16": {
+            "UploadsGB": "1.0272",
+            "DownloadsGB": "14.8837",
+            "Date": "2018-11-16"
+        },
+        "2018-11-15": {
+            "UploadsGB": "0.5511",
+            "DownloadsGB": "5.2939",
+            "Date": "2018-11-15"
+        },
+        "2018-11-14": {
+            "UploadsGB": "2.3620",
+            "DownloadsGB": "60.5851",
+            "Date": "2018-11-14"
+        },
+        "2018-11-13": {
+            "UploadsGB": "1.6741",
+            "DownloadsGB": "19.5706",
+            "Date": "2018-11-13"
+        },
+        "2018-11-12": {
+            "UploadsGB": "1.5252",
+            "DownloadsGB": "12.3840",
+            "Date": "2018-11-12"
+        },
+        "2018-11-11": {
+            "UploadsGB": "0.9725",
+            "DownloadsGB": "13.6596",
+            "Date": "2018-11-11"
+        },
+        "2018-11-10": {
+            "UploadsGB": "1.9786",
+            "DownloadsGB": "31.4388",
+            "Date": "2018-11-10"
+        },
+        "2018-11-09": {
+            "UploadsGB": "2.6875",
+            "DownloadsGB": "27.6398",
+            "Date": "2018-11-09"
+        },
+        "2018-11-08": {
+            "UploadsGB": "2.7804",
+            "DownloadsGB": "21.1172",
+            "Date": "2018-11-08"
+        },
+        "2018-11-07": {
+            "UploadsGB": "1.3152",
+            "DownloadsGB": "15.5353",
+            "Date": "2018-11-07"
+        },
+        "2018-11-06": {
+            "UploadsGB": "3.7270",
+            "DownloadsGB": "10.3450",
+            "Date": "2018-11-06"
+        },
+        "2018-11-05": {
+            "UploadsGB": "1.1922",
+            "DownloadsGB": "9.0618",
+            "Date": "2018-11-05"
+        },
+        "2018-11-04": {
+            "UploadsGB": "1.3542",
+            "DownloadsGB": "26.9879",
+            "Date": "2018-11-04"
+        },
+        "2018-11-03": {
+            "UploadsGB": "1.5329",
+            "DownloadsGB": "55.1277",
+            "Date": "2018-11-03"
+        },
+        "2018-11-02": {
+            "UploadsGB": "1.0593",
+            "DownloadsGB": "12.6051",
+            "Date": "2018-11-02"
+        },
+        "2018-11-01": {
+            "UploadsGB": "1.0931",
+            "DownloadsGB": "8.6687",
+            "Date": "2018-11-01"
+        },
+        "2018-10-31": {
+            "UploadsGB": "0.8578",
+            "DownloadsGB": "19.4938",
+            "Date": "2018-10-31"
+        },
+        "2018-10-30": {
+            "UploadsGB": "1.0099",
+            "DownloadsGB": "16.7969",
+            "Date": "2018-10-30"
+        },
+        "2018-10-29": {
+            "UploadsGB": "1.0399",
+            "DownloadsGB": "20.7814",
+            "Date": "2018-10-29"
+        },
+        "2018-10-28": {
+            "UploadsGB": "0.6808",
+            "DownloadsGB": "23.6917",
+            "Date": "2018-10-28"
+        },
+        "2018-10-27": {
+            "UploadsGB": "0.5858",
+            "DownloadsGB": "19.5939",
+            "Date": "2018-10-27"
+        },
+        "2018-10-26": {
+            "UploadsGB": "1.4819",
+            "DownloadsGB": "27.6316",
+            "Date": "2018-10-26"
+        },
+        "2018-10-25": {
+            "UploadsGB": "1.1542",
+            "DownloadsGB": "17.7085",
+            "Date": "2018-10-25"
+        },
+        "2018-10-24": {
+            "UploadsGB": "1.0692",
+            "DownloadsGB": "16.6084",
+            "Date": "2018-10-24"
+        },
+        "2018-10-23": {
+            "UploadsGB": "0.5215",
+            "DownloadsGB": "16.2660",
+            "Date": "2018-10-23"
+        },
+        "2018-10-22": {
+            "UploadsGB": "0.5973",
+            "DownloadsGB": "13.0883",
+            "Date": "2018-10-22"
+        },
+        "2018-10-21": {
+            "UploadsGB": "1.0805",
+            "DownloadsGB": "37.3885",
+            "Date": "2018-10-21"
+        },
+        "2018-10-20": {
+            "UploadsGB": "0.7078",
+            "DownloadsGB": "15.9469",
+            "Date": "2018-10-20"
+        },
+        "2018-10-19": {
+            "UploadsGB": "0.7527",
+            "DownloadsGB": "15.8975",
+            "Date": "2018-10-19"
+        },
+        "2018-10-18": {
+            "UploadsGB": "1.5851",
+            "DownloadsGB": "40.6902",
+            "Date": "2018-10-18"
+        },
+        "2018-10-17": {
+            "UploadsGB": "1.3191",
+            "DownloadsGB": "36.0527",
+            "Date": "2018-10-17"
+        },
+        "2018-10-16": {
+            "UploadsGB": "0.7697",
+            "DownloadsGB": "8.5335",
+            "Date": "2018-10-16"
+        },
+        "2018-10-15": {
+            "UploadsGB": "0.6042",
+            "DownloadsGB": "9.3482",
+            "Date": "2018-10-15"
+        },
+        "2018-10-14": {
+            "UploadsGB": "0.6095",
+            "DownloadsGB": "17.9974",
+            "Date": "2018-10-14"
+        },
+        "2018-10-13": {
+            "UploadsGB": "0.4391",
+            "DownloadsGB": "13.3987",
+            "Date": "2018-10-13"
+        },
+        "2018-10-12": {
+            "UploadsGB": "0.5818",
+            "DownloadsGB": "10.1586",
+            "Date": "2018-10-12"
+        },
+        "2018-10-11": {
+            "UploadsGB": "0.7932",
+            "DownloadsGB": "10.5345",
+            "Date": "2018-10-11"
+        },
+        "2018-10-10": {
+            "UploadsGB": "1.3678",
+            "DownloadsGB": "31.3263",
+            "Date": "2018-10-10"
+        },
+        "2018-10-09": {
+            "UploadsGB": "1.4926",
+            "DownloadsGB": "35.0766",
+            "Date": "2018-10-09"
+        },
+        "2018-10-08": {
+            "UploadsGB": "1.3416",
+            "DownloadsGB": "14.7115",
+            "Date": "2018-10-08"
+        },
+        "2018-10-07": {
+            "UploadsGB": "0.5136",
+            "DownloadsGB": "12.9154",
+            "Date": "2018-10-07"
+        },
+        "2018-10-06": {
+            "UploadsGB": "0.5970",
+            "DownloadsGB": "17.3001",
+            "Date": "2018-10-06"
+        },
+        "2018-10-05": {
+            "UploadsGB": "0.8259",
+            "DownloadsGB": "12.5218",
+            "Date": "2018-10-05"
+        },
+        "2018-10-04": {
+            "UploadsGB": "0.8871",
+            "DownloadsGB": "8.2436",
+            "Date": "2018-10-04"
+        },
+        "2018-10-03": {
+            "UploadsGB": "0.7642",
+            "DownloadsGB": "5.9483",
+            "Date": "2018-10-03"
+        },
+        "2018-10-02": {
+            "UploadsGB": "0.9814",
+            "DownloadsGB": "13.8305",
+            "Date": "2018-10-02"
+        },
+        "2018-10-01": {
+            "UploadsGB": "0.4740",
+            "DownloadsGB": "10.1193",
+            "Date": "2018-10-01"
+        },
+        "2018-09-30": {
+            "UploadsGB": "0.6207",
+            "DownloadsGB": "19.9643",
+            "Date": "2018-09-30"
+        },
+        "2018-09-29": {
+            "UploadsGB": "0.6984",
+            "DownloadsGB": "22.8472",
+            "Date": "2018-09-29"
+        },
+        "2018-09-28": {
+            "UploadsGB": "1.7721",
+            "DownloadsGB": "25.4550",
+            "Date": "2018-09-28"
+        },
+        "2018-09-27": {
+            "UploadsGB": "1.5316",
+            "DownloadsGB": "28.8692",
+            "Date": "2018-09-27"
+        },
+        "2018-09-26": {
+            "UploadsGB": "0.5890",
+            "DownloadsGB": "9.1901",
+            "Date": "2018-09-26"
+        },
+        "2018-09-25": {
+            "UploadsGB": "0.6434",
+            "DownloadsGB": "8.2108",
+            "Date": "2018-09-25"
+        },
+        "2018-09-24": {
+            "UploadsGB": "0.7994",
+            "DownloadsGB": "7.4840",
+            "Date": "2018-09-24"
+        },
+        "2018-09-23": {
+            "UploadsGB": "0.4073",
+            "DownloadsGB": "15.4947",
+            "Date": "2018-09-23"
+        },
+        "2018-09-22": {
+            "UploadsGB": "0.4214",
+            "DownloadsGB": "14.1155",
+            "Date": "2018-09-22"
+        },
+        "2018-09-21": {
+            "UploadsGB": "0.7159",
+            "DownloadsGB": "5.9737",
+            "Date": "2018-09-21"
+        },
+        "2018-09-20": {
+            "UploadsGB": "0.8676",
+            "DownloadsGB": "11.1597",
+            "Date": "2018-09-20"
+        },
+        "2018-09-19": {
+            "UploadsGB": "1.0635",
+            "DownloadsGB": "11.8919",
+            "Date": "2018-09-19"
+        },
+        "2018-09-18": {
+            "UploadsGB": "0.6297",
+            "DownloadsGB": "11.1914",
+            "Date": "2018-09-18"
+        },
+        "2018-09-17": {
+            "UploadsGB": "0.5538",
+            "DownloadsGB": "4.5968",
+            "Date": "2018-09-17"
+        },
+        "2018-09-16": {
+            "UploadsGB": "0.4247",
+            "DownloadsGB": "20.3534",
+            "Date": "2018-09-16"
+        },
+        "2018-09-15": {
+            "UploadsGB": "0.4811",
+            "DownloadsGB": "24.0991",
+            "Date": "2018-09-15"
+        },
+        "2018-09-14": {
+            "UploadsGB": "0.8416",
+            "DownloadsGB": "14.5926",
+            "Date": "2018-09-14"
+        },
+        "2018-09-13": {
+            "UploadsGB": "0.5524",
+            "DownloadsGB": "10.4579",
+            "Date": "2018-09-13"
+        },
+        "2018-09-12": {
+            "UploadsGB": "0.6616",
+            "DownloadsGB": "10.3895",
+            "Date": "2018-09-12"
+        },
+        "2018-09-11": {
+            "UploadsGB": "0.4107",
+            "DownloadsGB": "12.0389",
+            "Date": "2018-09-11"
+        },
+        "2018-09-10": {
+            "UploadsGB": "0.4852",
+            "DownloadsGB": "5.2629",
+            "Date": "2018-09-10"
+        },
+        "2018-09-09": {
+            "UploadsGB": "0.3522",
+            "DownloadsGB": "11.3262",
+            "Date": "2018-09-09"
+        },
+        "2018-09-08": {
+            "UploadsGB": "0.4501",
+            "DownloadsGB": "28.1332",
+            "Date": "2018-09-08"
+        },
+        "2018-09-07": {
+            "UploadsGB": "0.5388",
+            "DownloadsGB": "26.1123",
+            "Date": "2018-09-07"
+        },
+        "2018-09-06": {
+            "UploadsGB": "0.6655",
+            "DownloadsGB": "9.7658",
+            "Date": "2018-09-06"
+        },
+        "2018-09-05": {
+            "UploadsGB": "1.2564",
+            "DownloadsGB": "26.3242",
+            "Date": "2018-09-05"
+        },
+        "2018-09-04": {
+            "UploadsGB": "0.9187",
+            "DownloadsGB": "24.5147",
+            "Date": "2018-09-04"
+        },
+        "2018-09-03": {
+            "UploadsGB": "0.7909",
+            "DownloadsGB": "8.7391",
+            "Date": "2018-09-03"
+        },
+        "2018-09-02": {
+            "UploadsGB": "0.3697",
+            "DownloadsGB": "16.9861",
+            "Date": "2018-09-02"
+        },
+        "2018-09-01": {
+            "UploadsGB": "0.3930",
+            "DownloadsGB": "21.8244",
+            "Date": "2018-09-01"
+        },
+        "2018-08-31": {
+            "UploadsGB": "0.5507",
+            "DownloadsGB": "11.6400",
+            "Date": "2018-08-31"
+        },
+        "2018-08-30": {
+            "UploadsGB": "0.4589",
+            "DownloadsGB": "8.7515",
+            "Date": "2018-08-30"
+        },
+        "2018-08-29": {
+            "UploadsGB": "0.7988",
+            "DownloadsGB": "43.1909",
+            "Date": "2018-08-29"
+        },
+        "2018-08-28": {
+            "UploadsGB": "0.5049",
+            "DownloadsGB": "6.5600",
+            "Date": "2018-08-28"
+        },
+        "2018-08-27": {
+            "UploadsGB": "0.3153",
+            "DownloadsGB": "6.8143",
+            "Date": "2018-08-27"
+        },
+        "2018-08-26": {
+            "UploadsGB": "0.3274",
+            "DownloadsGB": "12.6188",
+            "Date": "2018-08-26"
+        },
+        "2018-08-25": {
+            "UploadsGB": "0.4161",
+            "DownloadsGB": "15.8766",
+            "Date": "2018-08-25"
+        },
+        "2018-08-24": {
+            "UploadsGB": "0.5810",
+            "DownloadsGB": "10.7664",
+            "Date": "2018-08-24"
+        },
+        "2018-08-23": {
+            "UploadsGB": "2.6619",
+            "DownloadsGB": "86.6699",
+            "Date": "2018-08-23"
+        },
+        "2018-08-22": {
+            "UploadsGB": "0.6781",
+            "DownloadsGB": "11.6837",
+            "Date": "2018-08-22"
+        },
+        "2018-08-21": {
+            "UploadsGB": "0.5558",
+            "DownloadsGB": "9.5729",
+            "Date": "2018-08-21"
+        },
+        "2018-08-20": {
+            "UploadsGB": "0.5815",
+            "DownloadsGB": "10.1822",
+            "Date": "2018-08-20"
+        },
+        "2018-08-19": {
+            "UploadsGB": "0.3762",
+            "DownloadsGB": "10.6312",
+            "Date": "2018-08-19"
+        },
+        "2018-08-18": {
+            "UploadsGB": "0.4304",
+            "DownloadsGB": "21.7573",
+            "Date": "2018-08-18"
+        },
+        "2018-08-17": {
+            "UploadsGB": "0.5678",
+            "DownloadsGB": "22.3116",
+            "Date": "2018-08-17"
+        }
+    }
+}

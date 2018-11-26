@@ -19,6 +19,8 @@ function dataParse ()
     eDate = date(rYear,rMonth,rDay):addmonths(1)
     p1Date = date(rYear,rMonth,rDay):addmonths(-1)
     p2Date = date(rYear,rMonth,rDay):addmonths(-2)
+    p1Name = p1Date:getmonth()
+    p2Name = p2Date:getmonth()
     d0 = date.diff(eDate,dNow)
     d1 = date.diff(dNow,rDate)
     d2 = date.diff(dNow,p1Date)
@@ -32,6 +34,9 @@ function dataParse ()
     ptMonth = 0
     p1Usage = 0
     p2Usage = 0
+
+    SKIN:Bang('!SetOption', 'p1Name', 'String', p1Name)
+    SKIN:Bang('!SetOption', 'p2Name', 'String', p2Name)
 
     if dNow > rDate then
         ptMonth = math.floor((d1Sum/d4Sum)*100)
