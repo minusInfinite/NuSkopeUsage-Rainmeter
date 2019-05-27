@@ -2,7 +2,10 @@
 
 Rainmeter Skin for extracting NuSkope Usage information
 
-NuSkope - Internet Usage Meter 
+NuSkope - Internet Usage Meter - 
+**This Rainmeter app requires a NuSkope API Key. 
+Since the Superloop acquired NuSkope you aren't able to generate new API keys.
+Unless you have one you will not be able to use this app**
 
 New Preview - https://imgur.com/a/OA6zzB1
 
@@ -14,7 +17,7 @@ _Original Licensed under CC BY-NC-SA 3.0, due placing on GitHub, matched Licence
 3) Open the file in Explorer to automatically import
 
 # Usage
-1) On Load the Skin should ask for you API Key. Get you Key from the members Area.
+1) On Load the Skin should ask for you API Key, paste it in the text box and press enter. 
 2) If it doesn't, loading the Usage\NuskopeUsageV2.ini should do this. 
 
 If you have any issues please let me know. 
